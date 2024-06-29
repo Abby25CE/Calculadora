@@ -74,8 +74,8 @@ function App() {
     }
 
     if (operators.includes(sim)) {
-      // Si el último carácter es un operador y el símbolo actual también es un operador, no se agrega
-      if (operators.includes(lastChar) || operators.includes(secondLastChar)) {
+      // Evitar operadores consecutivos
+      if (operators.includes(lastChar)) {
         return;
       }
     }
