@@ -13,7 +13,9 @@ type Theme = {
 
 export const Container = styled.div`
   max-width: 500px;
-  min-width: 340px;
+  min-width: 410px;
+  padding: 2rem;
+  border: 5px ridge var(--key-background-dark-blue);
   margin: 0 auto;
   user-select: none;
   @media screen and (min-width: 450 px) {

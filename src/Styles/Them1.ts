@@ -19,6 +19,7 @@ html:root {
     --very-dark-grayish-blue: hsl(221, 14%, 31%);
     --white: #fff;
     --white-text: #fff;
+    
 }
 body{
     min-width: 100vw;
